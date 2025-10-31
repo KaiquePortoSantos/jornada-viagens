@@ -97,7 +97,6 @@ nav {
   .navegation-menu a:hover {
     color: var(--primary-color);
   }
-
 }
 
 @media screen and (min-width: 1920px) {
@@ -105,10 +104,9 @@ nav {
     padding: 38px 250px;
   }
 
-@media (min-width: 2560px) {
-  header {
-    padding: 38px 1150px;
+  @media (min-width: 2560px) {
+    header {
+      padding: 38px 1150px;
+    }
   }
-  
-}
 }
